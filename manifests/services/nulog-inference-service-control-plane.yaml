@@ -34,10 +34,3 @@ spec:
           value: "4"
         - name: IS_CONTROL_PLANE_SERVICE
           value: "True"
-        resources:
-          limits:
-            memory: 2Gi
-            cpu: "7.5"
-          requests:
-            memory: 1Gi
-            cpu: "%NULOG_SERVICE_CPU_REQUEST%"
