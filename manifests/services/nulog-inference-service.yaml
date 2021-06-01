@@ -15,11 +15,7 @@ spec:
     spec:
       containers:
       - name: nulog-inference-service
-<<<<<<< HEAD:src/k8s/services/nulog-inference-service.yaml
-        image: sanjayrancher/nulog-inference-service:v0.0
-=======
         image: rancher/opni-inference-service:v0.1.1
->>>>>>> upstream/main:manifests/services/nulog-inference-service.yaml
         imagePullPolicy: Always
         env:
         - name: NATS_SERVER_URL

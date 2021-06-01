@@ -56,11 +56,7 @@ spec:
       serviceAccountName: training-controller-rb
       containers:
       - name: training-controller
-<<<<<<< HEAD:src/k8s/services/training_controller.yaml
-        image: sanjayrancher/training-controller:v0.0
-=======
         image: rancher/opni-training-controller:v0.1.1
->>>>>>> upstream/main:manifests/services/training-controller.yaml
         imagePullPolicy: Always
         env:
         - name: NATS_SERVER_URL

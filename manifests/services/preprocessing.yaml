@@ -26,11 +26,7 @@ spec:
           value: "%ES_PASSWORD%"
       containers:
       - name: preprocessing-service
-<<<<<<< HEAD:src/k8s/services/preprocessing.yaml
-        image: sanjayrancher/preprocessing-service:v0.0
-=======
         image: rancher/opni-preprocessing-service:v0.1.1
->>>>>>> upstream/main:manifests/services/preprocessing.yaml
         imagePullPolicy: Always
         env:
         - name: NATS_SERVER_URL

@@ -15,11 +15,7 @@ spec:
     spec:
       containers:
       - name: drain-service
-<<<<<<< HEAD:src/k8s/services/drain-service.yaml
-        image: sanjayrancher/drain-service:v0.0
-=======
         image: rancher/opni-drain-service:v0.1.1
->>>>>>> upstream/main:manifests/services/drain-service.yaml
         imagePullPolicy: Always
         env:
         - name: NATS_SERVER_URL
